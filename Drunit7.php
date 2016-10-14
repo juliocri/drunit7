@@ -2,17 +2,17 @@
 
 /**
  * @file
- * CustomBasicUnitTest.php.
+ * Drunit7.php.
  */
 
 require 'lib/CustomBasicTestCase.php';
 
 /**
- * CustomBasicUnitTest class.
+ * Drunit7 class.
  *
  * Executes all test cases for custom config/addition for a Drupal instance.
  */
-class CustomBasicUnitTest extends CustomBasicTestCase {
+class Drunit7 extends CustomBasicTestCase {
 
   /**
    * Public function testSiteInformationIsCorrect().
