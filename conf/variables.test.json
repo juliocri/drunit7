@@ -1,0 +1,48 @@
+{
+  "search": {
+    "path": {
+      "patterns": {
+        "pathauto_blog_pattern": "blogs/[user:name]",
+        "pathauto_taxonomy_term_tags_pattern": null,
+        "pathauto_user_pattern": "users/[user:name]",
+        "pathauto_file_video_pattern": null,
+        "pathauto_node_page_pattern": null,
+        "pathauto_file_pattern": "file/[file:name]",
+        "pathauto_file_document_pattern": null,
+        "pathauto_file_audio_pattern": null,
+        "pathauto_node_blog_pattern": "blogs/[node:author:name]/[current-date:custom:Y]/[node:title]",
+        "pathauto_taxonomy_term_pattern": "[term:vocabulary]/[term:name]",
+        "pathauto_node_pattern": "content/[node:title]",
+        "pathauto_node_article_pattern": null,
+        "pathauto_file_image_pattern": null
+      }
+    }
+  },
+  "system": {
+    "site-information": {
+      "site_403": null,
+      "site_name": "Ostro Project",
+      "site_mail": "admin@example.com",
+      "site_404": "node/45",
+      "site_slogan": null,
+      "site_frontpage": "frontpage"
+    }
+  },
+  "people": {
+    "accounts": {
+      "user_picture_default": null,
+      "user_register": 1,
+      "anonymous": "Anonymous",
+      "user_cancel_method": "user_cancel_block",
+      "user_picture_guidelines": null,
+      "user_email_verification": 1,
+      "user_signatures": 0,
+      "user_admin_role": 3,
+      "user_picture_path": "pictures",
+      "user_picture_style": "thumbnail",
+      "user_picture_file_size": 800,
+      "user_pictures": 1,
+      "user_picture_dimensions": "1024x1024"
+    }
+  }
+}

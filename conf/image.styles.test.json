@@ -1,0 +1,26 @@
+{
+  "thumbnail": {
+    "label": "Thumbnail (100x100)",
+    "storage": 4,
+    "effects": {
+      "0": {
+        "dimensions callback": "image_scale_dimensions",
+        "help": "Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.",
+        "weight": 0,
+        "form callback": "image_scale_form",
+        "effect callback": "image_scale_effect",
+        "module": "image",
+        "label": "Scale",
+        "summary theme": "image_scale_summary",
+        "data": {
+          "width": 100,
+          "upscale": 1,
+          "height": 100
+        },
+        "name": "image_scale"
+      }
+    },
+    "module": "image",
+    "name": "thumbnail"
+  }
+}

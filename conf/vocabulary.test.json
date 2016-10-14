@@ -1,0 +1,10 @@
+{
+  "tags": {
+    "machine_name": "tags",
+    "name": "Tags",
+    "weight": 0,
+    "hierarchy": 0,
+    "module": "taxonomy",
+    "description": "Use tags to group articles on similar topics into categories."
+  }
+}

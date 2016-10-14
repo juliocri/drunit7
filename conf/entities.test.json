@@ -1,0 +1,48 @@
+{
+  "node": {
+    "view modes": {
+      "full": {
+        "custom settings": null,
+        "label": "Full content"
+      },
+      "search_result": {
+        "custom settings": null,
+        "label": "Search result highlighting input"
+      },
+      "search_index": {
+        "custom settings": null,
+        "label": "Search index"
+      },
+      "teaser": {
+        "custom settings": 1,
+        "label": "Teaser"
+      },
+      "diff_standard": {
+        "custom settings": null,
+        "label": "Revision comparison"
+      },
+      "highlighted_content": {
+        "custom settings": null,
+        "label": "Highlighted content"
+      },
+      "token": {
+        "custom settings": null,
+        "label": "Tokens"
+      },
+      "rss": {
+        "custom settings": null,
+        "label": "RSS"
+      },
+      "featured_content": {
+        "custom settings": null,
+        "label": "Featured content"
+      },
+      "revision": {
+        "custom settings": null,
+        "label": "Revision"
+      }
+    }
+  }
+}
+
+

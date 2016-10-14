@@ -1,0 +1,383 @@
+{
+  "blogs": {
+    "human_name": "Blogs",
+    "name": "blogs",
+    "display": {
+      "default": {
+        "position": 0,
+        "display_options": {
+          "title": "Blogs",
+          "fields": {
+            "body": {
+              "element_default_classes": null,
+              "settings": {
+                "trim_length": 150
+              },
+              "element_class": "blog-item-summary",
+              "element_label_colon": null,
+              "label": null,
+              "field": "body",
+              "element_type": "p",
+              "table": "field_data_body",
+              "type": "text_trimmed",
+              "id": "body"
+            },
+            "field_image": {
+              "element_default_classes": null,
+              "settings": {
+                "image_link": "content",
+                "image_style": null
+              },
+              "element_class": "blog-item-img",
+              "click_sort_column": "fid",
+              "label": null,
+              "field": "field_image",
+              "table": "field_data_field_image",
+              "element_label_colon": null,
+              "id": "field_image"
+            },
+            "title": {
+              "element_default_classes": null,
+              "link_to_node": null,
+              "element_class": "blog-item-title",
+              "label": null,
+              "field": "title",
+              "element_type": "span",
+              "id": "title",
+              "table": "node",
+              "element_label_colon": null,
+              "alter": {
+                "word_boundary": null,
+                "ellipsis": null
+              }
+            }
+          },
+          "cache": {
+            "type": "none"
+          },
+          "use_more_always": null,
+          "access": {
+            "type": "perm"
+          },
+          "filters": {
+            "status": {
+              "field": "status",
+              "group": 1,
+              "table": "node",
+              "expose": {
+                "operator": null
+              },
+              "id": "status",
+              "value": 1
+            },
+            "type": {
+              "table": "node",
+              "id": "type",
+              "value": {
+                "blog": "blog"
+              },
+              "field": "type"
+            }
+          },
+          "query": {
+            "type": "views_query",
+            "options": {}
+          },
+          "row_plugin": "fields",
+          "exposed_form": {
+            "type": "basic"
+          },
+          "sorts": {
+            "created": {
+              "field": "created",
+              "table": "node",
+              "order": "DESC",
+              "id": "created"
+            }
+          },
+          "pager": {
+            "type": "full",
+            "options": {
+              "offset": 0,
+              "items_per_page": 3,
+              "id": 0,
+              "quantity": 9
+            }
+          },
+          "style_plugin": "default"
+        },
+        "display_title": "Master",
+        "id": "default",
+        "display_plugin": "default"
+      },
+      "block_latest_blogs": {
+        "display_options": {
+          "fields": {
+            "nothing": {
+              "field": "nothing",
+              "element_default_classes": null,
+              "id": "nothing",
+              "table": "views",
+              "element_label_colon": null,
+              "alter": {
+                "text": "<div class=\"blog-item-details\">"
+              },
+              "label": null
+            },
+            "field_image": {
+              "element_default_classes": null,
+              "element_wrapper_type": "div",
+              "click_sort_column": "fid",
+              "settings": {
+                "image_link": "content",
+                "image_style": "blog_homepage"
+              },
+              "label": null,
+              "field": "field_image",
+              "table": "field_data_field_image",
+              "element_wrapper_class": "blog-item-img",
+              "id": "field_image",
+              "element_label_colon": null
+            },
+            "body": {
+              "element_default_classes": null,
+              "settings": {
+                "trim_length": 150
+              },
+              "element_class": "blog-item-summary",
+              "element_label_colon": null,
+              "label": null,
+              "field": "body",
+              "element_type": "p",
+              "id": "body",
+              "table": "field_data_body",
+              "type": "text_plain",
+              "alter": {
+                "trim": 1,
+                "max_length": 150
+              }
+            },
+            "nothing_1": {
+              "field": "nothing",
+              "element_default_classes": null,
+              "id": "nothing_1",
+              "table": "views",
+              "element_label_colon": null,
+              "alter": {
+                "text": "</div>"
+              },
+              "label": null
+            },
+            "title": {
+              "element_default_classes": null,
+              "link_to_node": null,
+              "element_class": "blog-item-title",
+              "label": null,
+              "field": "title",
+              "element_type": "span",
+              "id": "title",
+              "table": "node",
+              "element_label_colon": null,
+              "alter": {
+                "word_boundary": null,
+                "ellipsis": null
+              }
+            }
+          },
+          "use_more": 1,
+          "style_options": {
+            "row_class": "blog-item",
+            "default_row_class": null,
+            "row_class_special": null
+          },
+          "use_more_always": 1,
+          "row_plugin": "node",
+          "defaults": {
+            "fields": null,
+            "use_more": null,
+            "style_options": null,
+            "use_more_always": null,
+            "header": null,
+            "css_class": null,
+            "row_options": null,
+            "use_more_text": null,
+            "pager": null,
+            "row_plugin": null,
+            "style_plugin": null
+          },
+          "css_class": "latest-blogs-list",
+          "row_options": {
+            "view_mode": "highlighted_content",
+            "links": null
+          },
+          "query": {
+            "type": "views_query",
+            "options": {}
+          },
+          "use_more_text": "See more",
+          "pager": {
+            "type": "some",
+            "options": {
+              "items_per_page": 3,
+              "offset": 0
+            }
+          },
+          "style_plugin": "default"
+        },
+        "block_description": "Latest Blog",
+        "display_plugin": "block",
+        "position": 0,
+        "display_title": "Block: Latest Blogs",
+        "id": "block_latest_blogs"
+      },
+      "page_blogs_list": {
+        "display_options": {
+          "relationships": {
+            "uid": {
+              "table": "node",
+              "id": "uid",
+              "field": "uid"
+            }
+          },
+          "css_class": "blog_list",
+          "style_options": {
+            "row_class": "blog-item",
+            "default_row_class": null,
+            "row_class_special": null
+          },
+          "row_plugin": "node",
+          "defaults": {
+            "relationships": null,
+            "css_class": null,
+            "style_options": null,
+            "row_plugin": null,
+            "fields": null,
+            "row_options": null,
+            "pager": null,
+            "style_plugin": null
+          },
+          "fields": {
+            "body": {
+              "element_default_classes": null,
+              "settings": {
+                "trim_length": 150
+              },
+              "element_class": "blog-item-summary",
+              "element_label_colon": null,
+              "label": null,
+              "field": "body",
+              "element_type": "p",
+              "id": "body",
+              "table": "field_data_body",
+              "type": "text_plain",
+              "alter": {
+                "trim": 1,
+                "max_length": 400
+              }
+            },
+            "field_image": {
+              "element_default_classes": null,
+              "element_wrapper_type": "div",
+              "click_sort_column": "fid",
+              "settings": {
+                "image_link": "content",
+                "image_style": null
+              },
+              "label": null,
+              "field": "field_image",
+              "table": "field_data_field_image",
+              "element_wrapper_class": "blog-item-img",
+              "id": "field_image",
+              "element_label_colon": null
+            },
+            "name": {
+              "element_default_classes": null,
+              "relationship": "uid",
+              "label": null,
+              "field": "name",
+              "exclude": 1,
+              "table": "users",
+              "element_label_colon": null,
+              "id": "name"
+            },
+            "title": {
+              "element_default_classes": false,
+              "link_to_node": false,
+              "element_class": "blog-item-title",
+              "label": "",
+              "field": "title",
+              "element_type": "span",
+              "id": "title",
+              "table": "node",
+              "element_label_colon": false,
+              "alter": {
+                "word_boundary": false,
+                "text": "\n",
+                "ellipsis": false
+              }
+            },
+            "nothing": {
+              "field": "nothing",
+              "element_default_classes": null,
+              "id": "nothing",
+              "table": "views",
+              "element_label_colon": null,
+              "alter": {
+                "text": "<div class=\"blog-item-details\">"
+              },
+              "label": null
+            },
+            "created": {
+              "date_format": "short",
+              "element_default_classes": null,
+              "second_date_format": "long",
+              "label": null,
+              "field": "created",
+              "id": "created",
+              "table": "node",
+              "element_label_colon": null,
+              "alter": {
+                "alter_text": 1,
+                "text": "<span class=\"blog-item-posted\">By [name] on [created]</span>"
+              }
+            },
+            "nothing_1": {
+              "field": "nothing",
+              "element_default_classes": null,
+              "id": "nothing_1",
+              "table": "views",
+              "element_label_colon": null,
+              "alter": {
+                "text": "</div>"
+              },
+              "label": null
+            }
+          },
+          "row_options": {
+            "view_mode": "highlighted_content",
+            "links": null
+          },
+          "query": {
+            "type": "views_query",
+            "options": {}
+          },
+          "pager": {
+            "type": "full",
+            "options": {
+              "offset": 0,
+              "items_per_page": 12,
+              "id": 0,
+              "quantity": 9
+            }
+          },
+          "style_plugin": "default"
+        },
+        "display_plugin": "page",
+        "path": "blogs",
+        "position": 0,
+        "display_title": "Page: Blog List",
+        "id": "page_blogs_list"
+      }
+    }
+  }
+}

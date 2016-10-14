@@ -1,0 +1,29 @@
+{
+  "blog": {
+    "disabled": null,
+    "fields": {
+      "body": {
+        "widget": {
+          "type": "text_textarea_with_summary"
+        },
+        "required": 0,
+        "label": "Body",
+        "settings": {
+          "display_summary": 1
+        }
+      },
+      "field_image": {
+        "widget": {
+          "type": "image_image"
+        },
+        "required": 1,
+        "label": "Image",
+        "settings": {
+          "file_extensions": "png gif jpg jpeg",
+          "max_filesize": "2 MB"
+        }
+      }
+    },
+    "name": "Blog entry"
+  }
+}

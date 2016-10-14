@@ -1,0 +1,63 @@
+{
+  "sitewide": {
+    "disabled": null,
+    "reactions": {
+      "block": {
+        "blocks": {
+          "menu_block-3": {
+            "region": "footer_fourthcolumn",
+            "module": "menu_block",
+            "weight": -9,
+            "delta": 3
+          },
+          "menu-menu-footer-menu": {
+            "region": "footer",
+            "module": "menu",
+            "weight": -10,
+            "delta": "menu-footer-menu"
+          },
+          "menu-menu-community": {
+            "region": "footer_fourthcolumn",
+            "module": "menu",
+            "weight": -10,
+            "delta": "menu-community"
+          },
+          "system-main-menu": {
+            "region": "navigation",
+            "module": "system",
+            "weight": -10,
+            "delta": "main-menu"
+          },
+          "menu-menu-downloads-icons": {
+            "region": "footer_thirdcolumn",
+            "module": "menu",
+            "weight": -10,
+            "delta": "menu-downloads-icons"
+          },
+          "menu-menu-about": {
+            "region": "footer_firstcolumn",
+            "module": "menu",
+            "weight": -10,
+            "delta": "menu-about"
+          },
+          "menu-menu-documentation": {
+            "region": "footer_secondcolumn",
+            "module": "menu",
+            "weight": -10,
+            "delta": "menu-documentation"
+          }
+        }
+      }
+    },
+    "tag": null,
+    "name": "sitewide",
+    "conditions": {
+      "sitewide": {
+        "value": {
+          "1": 1
+        }
+      }
+    },
+    "description": null
+  }
+}

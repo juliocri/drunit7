@@ -1,0 +1,49 @@
+{
+  "contrib": {
+    "disabled": [
+      "googleanalytics",
+      "wysiwyg_test",
+      "xmlsitemap_engines_test"
+    ],
+    "enabled": [
+      "strongarm",
+      "wysiwyg_filter",
+      "views",
+      "features",
+      "devel"
+    ]
+  },
+  "core": {
+    "disabled": [
+      "overlay",
+    ],
+    "enabled": [
+      "block",
+      "blog",
+      "color"
+    ]
+  },
+  "features": {
+    "disabled": null,
+    "enabled": [
+      "config_feature"
+    ]
+  },
+  "themes": {
+    "disabled": [
+      "garland",
+      "stark"
+    ],
+    "enabled": [
+      "bartik",
+      "ostro_theme",
+      "seven"
+    ]
+  },
+  "custom": {
+    "disabled": null,
+    "enabled": [
+      "custom_theme"
+    ]
+  }
+}

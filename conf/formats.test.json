@@ -1,0 +1,65 @@
+{
+  "full_html": {
+    "status": 1,
+    "name": "Full HTML",
+    "roles": {
+      "3": "administrator"
+    },
+    "format": "full_html",
+    "filters": {
+      "filter_autop": {
+        "status": 1,
+        "name": "filter_autop",
+        "weight": 1,
+        "settings": {},
+        "title": "Convert line breaks into HTML (i.e. <code>&lt;br&gt;</code> and <code>&lt;p&gt;</code>)",
+        "format": "full_html",
+        "module": "filter"
+      },
+      "filter_html_escape": {
+        "status": 0,
+        "name": "filter_html_escape",
+        "weight": -10,
+        "settings": {},
+        "title": "Display any HTML as plain text",
+        "format": "full_html",
+        "module": "filter"
+      },
+      "filter_htmlcorrector": {
+        "status": 1,
+        "name": "filter_htmlcorrector",
+        "weight": 10,
+        "settings": {},
+        "title": "Correct faulty and chopped off HTML",
+        "format": "full_html",
+        "module": "filter"
+      },
+      "filter_url": {
+        "status": 1,
+        "name": "filter_url",
+        "weight": 0,
+        "settings": {
+          "filter_url_length": 72
+        },
+        "title": "Convert URLs into links",
+        "format": "full_html",
+        "module": "filter"
+      },
+      "filter_html": {
+        "status": 0,
+        "name": "filter_html",
+        "weight": -10,
+        "settings": {
+          "allowed_html": "<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd>",
+          "filter_html_help": 1,
+          "filter_html_nofollow": 0
+        },
+        "title": "Limit allowed HTML tags",
+        "format": "full_html",
+        "module": "filter"
+      }
+    },
+    "cache": 1,
+    "weight": 1
+  }
+}
