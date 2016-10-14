@@ -1,5 +1,5 @@
 # drunit7
-A basic unit test cases for verify current configuration in a Drupal 7 instance.
+A basic set of unit test cases to verify current custom configuration in a Drupal 7 instance.
 
 ## Requirements
 
